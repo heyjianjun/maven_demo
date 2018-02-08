@@ -1,0 +1,23 @@
+Index: src/main/java/helloworld.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/helloworld.java	(date 1518095630202)
++++ src/main/java/helloworld.java	(date 1518095630202)
+@@ -0,0 +1,15 @@
++/**
++ * Created by heyjianjun on 2018/2/8.
++ */
++public class helloworld {
++    public static void main(String[] args){
++        Integer a = 10;
++        Integer b = 400;
++        Integer c = addNum(a,b);
++        System.out.printf(c.toString());
++    }
++    public static Integer addNum(Integer a,Integer b){
++        Integer c = a + b;
++        return  c;
++    }
++}
