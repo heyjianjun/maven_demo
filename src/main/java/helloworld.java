@@ -11,5 +11,6 @@ public class helloworld {
     public static Integer addNum(Integer a,Integer b){
         Integer c = a + b;
         return  c;
+
     }
 }
